@@ -20,18 +20,23 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '17'
-        cache: 'gradle'
+
+    - name: Set up Gradle
+      uses: gradle/actions/setup-gradle@v4
+      with:
+        gradle-version: '8.7'
 
     - name: Grant Execute Permission for Gradle Wrapper
       run: chmod +x gradlew
       continue-on-error: true
 
     - name: Build Debug APK
-      run: ./gradlew assembleDebug --stacktrace
+      run: gradle assembleDebug
 
     - name: Upload Debug APK Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: deepsleep-debug-apk
+        name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
         retention-days: 30
+
