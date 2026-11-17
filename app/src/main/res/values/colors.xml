@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="brand_primary">#6366F1</color>
+    <color name="brand_primary_dark">#4F46E5</color>
+    <color name="brand_primary_light">#EEF2FF</color>
+    <color name="brand_secondary">#8B5CF6</color>
+
+    <!-- Semantic Status Colors -->
+    <color name="status_active">#10B981</color>
+    <color name="status_active_bg">#ECFDF5</color>
+    <color name="status_active_border">#A7F3D0</color>
+
+    <color name="status_inactive">#F59E0B</color>
+    <color name="status_inactive_bg">#FFFBEB</color>
+    <color name="status_inactive_border">#FDE68A</color>
+
+    <!-- Neutral & Backgrounds -->
+    <color name="screen_background">#0F172A</color>
+    <color name="surface_card">#1E293B</color>
+    <color name="surface_card_stroke">#334155</color>
+    <color name="surface_card_secondary">#26334D</color>
+
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_tertiary">#64748B</color>
+
+    <color name="divider">#1E293B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

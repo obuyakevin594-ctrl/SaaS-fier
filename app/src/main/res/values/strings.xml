@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSleep</string>
+    <string name="accessibility_service_label">DeepSleep Hibernation Service</string>
+    <string name="accessibility_service_description">DeepSleep uses this Accessibility Service to automate opening App Settings and tapping 'Force Stop' on your selected apps to put them into deep hibernation. No screen content or personal data is collected or stored.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_subtitle">Put background apps into deep hibernation</string>
+    <string name="status_active_title">Automation Ready</string>
+    <string name="status_active_subtitle">Accessibility Service is active and ready to hibernate apps.</string>
+    <string name="status_inactive_title">Service Disabled</string>
+    <string name="status_inactive_subtitle">Accessibility Service is required to automate Force Stop without root.</string>
+    <string name="btn_enable_service">Enable Deep Sleep</string>
+    <string name="btn_service_running">Service Active</string>
+
+    <string name="search_hint">Search installed apps…</string>
+    <string name="apps_count_format">%1$d selected of %2$d apps</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="empty_apps_message">No user-installed apps found.</string>
+
+    <!-- Bottom Trigger -->
+    <string name="btn_hibernate_apps">Hibernate Selected Apps</string>
+    <string name="btn_hibernate_apps_count">Hibernate %1$d Apps</string>
+    <string name="no_apps_selected_warning">Please select at least one app to hibernate.</string>
+
+    <!-- Prominent Disclosure Dialog -->
+    <string name="disclosure_title">Prominent Disclosure</string>
+    <string name="disclosure_heading">Why DeepSleep needs Accessibility</string>
+    <string name="disclosure_body_1">To stop background cache buildup, phantom battery drain, and unwanted wake locks, Android requires putting apps into "Force Stop" state.</string>
+    <string name="disclosure_body_2">DeepSleep uses the Accessibility Service solely to automate navigating to each selected app\'s system settings and clicking the "Force Stop" button on your behalf.</string>
+    <string name="disclosure_privacy_title">Your Privacy is Protected</string>
+    <string name="disclosure_privacy_body">• We DO NOT collect, store, or transmit any personal data.\n• We DO NOT monitor keystrokes, personal messages, or screen text.\n• The service runs only when you tap "Hibernate Selected Apps".</string>
+    <string name="disclosure_btn_agree">Agree &amp; Enable</string>
+    <string name="disclosure_btn_cancel">Cancel</string>
+
+    <!-- Hibernation Progress & Results -->
+    <string name="hibernation_started">Starting hibernation sequence…</string>
+    <string name="hibernation_progress">Hibernating: %1$s (%2$d/%3$d)</string>
+    <string name="hibernation_complete">Hibernation complete! %1$d apps put to sleep.</string>
+    <string name="hibernation_cancelled">Hibernation stopped.</string>
+    <string name="hibernation_already_stopped">Already stopped: %1$s</string>
+</resources>
